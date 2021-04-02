@@ -20,9 +20,13 @@
     }
 
     .responseText {
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-top: 100px;
+margin-left: 30px !important;  
+margin-right: 30px !important;  
+font-size: 90% !important;
+margin-top: 200px !important;
+    }
+    br{
+        display: none;
     }
 }
 
@@ -66,6 +70,28 @@ iframe {
     text-align: center;
 
 }
+.aboutText {
+    font-family: classico-urw, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    padding: -0px 400px;   
+    margin-top: 100px
+}
+.babText {
+    font-family: classico-urw, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    font-style: normal;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    top: 50%;
+    margin-top: 50px;
+
+}
 
 .bodyText {
     font-family: classico-urw, sans-serif;
@@ -76,6 +102,12 @@ iframe {
     color: white;
     line-height: 1.1;
 
+    
+}
+.linkTab{
+        display: grid;
+    padding: 10px 600px;
+    
 }
 
 .titleText {
@@ -93,7 +125,7 @@ iframe {
 .shareText {
     font-family: classico-urw, sans-serif;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 23px;
     text-align: center;
     bottom: 10px;
     position: fixed;
@@ -112,9 +144,6 @@ iframe {
     text-align: center;
     top: 50%;
     margin-top: 210px;
-
-
-
 
 }
 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>A Hundred Voices </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/exz4col.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="titleText">
+        <a href="index.html"> A Hundred Voices</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="responseText">             
+One particular incident is engraved in my memory of<br> a grown man almost raping me in cricket stadium's <br>bathroom. Allah saved me that day otherwise<br> something horrible could have happened. I was <br> hardly 11 back then.
+<br>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="shareText">
+        <a href="story.html"> Share Your Story</a>
+    </div>
+     <a class="next round" onclick="getRandomlink()">&#10095;</a>
+
+    <div id="btnContainer">
+        <a href="list.html"><button class="btn">View as Grid</button></a>
+
+    </div>
+    <script>
+        function getRandomlink() {
+            let myRandom = Math.floor(Math.random() * (100 - 1) + 1);
+            myRandom = "./response" + myRandom + ".html"
+            window.location.href = myRandom
+        }
+    </script>
+
+</body></html>

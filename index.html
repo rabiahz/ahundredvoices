@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>A Hundred Voices </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/exz4col.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="subHead">A Hundred Voices</div>
+    <br>
+    <br>
+    <div class="bodyText">One in two Pakistani women have
+        been a victim of<br> violence yet never sought help or told anyone <br>about it.  Click on the arrow to hear more than <br>a hundred different stories.
+        <br>
+        <br>
+
+        <div class="shareText"> <a href="story.html"> Share Your Story</a></div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    --
+    <a class="next round" onclick="getRandomlink()">&#10095;</a>
+
+    <br>
+
+   
+
+
+   
+    <!-- <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+
+    </script>-->
+ <script>
+        function getRandomlink() {
+            let myRandom = Math.floor(Math.random() * (100 - 1) + 1);
+            myRandom = "./response" + myRandom + ".html"
+            window.location.href = myRandom
+        }
+    </script>
+     <div id="btnContainer">
+        <a href="list.html"><button class="btn">View as Grid</button></a>
+    
+    </div>
+</body>
+</html>

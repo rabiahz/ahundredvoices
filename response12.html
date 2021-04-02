@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>A Hundred Voices </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/exz4col.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="titleText">
+        <a href="index.html"> A Hundred Voices</a>
+    </div>
+    <div class="responseText">
+        There is this template of a "good Pakistani girl" or a "good desi girl" that a<br> lot of women are expected to follow and it includes having your family <br>be your first priority and your own ambitions and desires be the last.<br> The strange thing is that even if you aren't doing anything "bad" you can <br>still not be considered a good Pakistani girl. For instance if a girl<br> expressed that she wants to live in a completely different place from<br> her family and a lot of people would question her almost as if its wrong.<br> For a lot of pakistani people they have this set way of how you should<br> live your life and any deviations from that are seen as a form of rebellion.<br> Often women are seen as children that need to be guided in terms of <br>what they can and can't do with their lives but also to act like an adult <br>by being a wife in training. This dichotomy is troubling because it's<br> basically saying you have the responsibility to act like a grow woman but<br> you are expected to be obedient like a child who doesn't know any better.<br>
+        I have friends who have tried to have conversations with their parents <br>about what they are thinking and its been ineffective because people are <br>simply not willing to listen to Pakistani women on how she wants to live <br>her life. Especially an unmarried Pakistani woman becausein many older people's<br> eyes they dont have any merit to have a voice or make their own decisions.
+    </div>
+ <div class="shareText">
+        <a href="story.html"> Share Your Story</a>
+    </div>
+ <a class="next round" onclick="getRandomlink()">&#10095;</a>
+
+    <div id="btnContainer">
+        <a href="list.html"><button class="btn">View as Grid</button></a>
+
+    </div>
+
+    <script>
+        function getRandomlink() {
+            let myRandom = Math.floor(Math.random() * (100 - 1) + 1);
+            myRandom = "./response" + myRandom + ".html"
+            window.location.href = myRandom
+        }
+    </script>
+
+</body></html>

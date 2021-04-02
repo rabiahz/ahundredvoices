@@ -1,10 +1,61 @@
-a{
+@media (max-width: 768px) {
+    .subHead {
+
+        line-height: 0.8;
+    }
+
+    .bodyText {
+        padding: 5px 46px;
+    }
+
+    .next round {
+        bottom: 0;
+        position: fixed;
+    }
+
+    #btnContainer {
+        bottom: 50px;
+        position: fixed;
+
+    }
+
+    .responseText {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 100px;
+    }
+}
+
+
+#btnContainer {
+    bottom: 50px;
+    position: fixed;
+
+}
+
+.responseText {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+}
+
+a {
     cursor: pointer;
 }
+
 body {
     background-color: black;
 }
 
+hr {
+    color: white;
+    margin-bottom: 15px;
+}
+
+iframe {
+    padding: 20px;
+}
 
 .subHead {
     color: white;
@@ -24,9 +75,9 @@ body {
     text-align: center;
     color: white;
     line-height: 1.1;
-    padding: 0px 475px;
 
 }
+
 .titleText {
     font-family: classico-urw, sans-serif;
     font-weight: 700;
@@ -59,10 +110,11 @@ body {
     color: white;
     line-height: 1.2;
     text-align: center;
-        top: 50%;
-    margin-top: 210px
+    top: 50%;
+    margin-top: 210px;
 
- 
+
+
 
 }
 
@@ -80,20 +132,21 @@ a {
     line-height: 1.3;
     padding: 15px
 }*/
-.listText{
-  column-width: 300px;
-  column-rule: none;
-  column-gap: 2em;
-  margin: 0 auto;
-  max-width: 1400px;
-  color: white;
-  padding: 10px;
+.listText {
+    column-width: 300px;
+    column-rule: none;
+    column-gap: 2em;
+    margin: 0 auto;
+    max-width: 1400px;
+    color: white;
+    padding: 5px;
     font-family: classico-urw, sans-serif;
     font-weight: 200;
     font-size: 17px;
     font-style: normal;
-  line-height: 1.3;
+    line-height: 1.3;
 }
+
 .box {
     float: inherit;
     position: inherit;
@@ -136,17 +189,58 @@ a {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    transition: 2s ease;
+    animation: fadein 2s;
+    animation-delay: 10s;
     user-select: none;
     border: solid white 1px;
 }
-.round{
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    /*Update because you asked for this numbers BUT i propose from 0 otherwise you are instantly seeing the div. */
+    to {
+        opacity: 1;
+    }
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -20px;
+    padding: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    animation: fadein 2s;
+    animation-delay: 10s;
+    user-select: none;
+    border: solid white 1px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    /*Update because you asked for this numbers BUT i propose from 0 otherwise you are instantly seeing the div. */
+    to {
+        opacity: 1;
+    }
+}
+.round {
     border-radius: 50%;
 }
+
 /* Position the "next button" to the right */
 .next {
     right: 0;
 }
+
 /* On hover, add a black background color with a little bit see-through */
 
 
@@ -167,7 +261,7 @@ a {
 }
 
 
-.active, 
+.active,
 .btn:hover {
     background-color: #000000;
     color: white;
@@ -179,7 +273,5 @@ a {
     position: fixed;
     right: 0;
     bottom: 0px;
- 
+
 }
-
-

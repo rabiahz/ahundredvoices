@@ -38,7 +38,12 @@
     <div class="shareText">
         <a href="story.html"> Share Your Story</a>
     </div>
- 
+  <a class="next round" onclick="getRandomlink()">&#10095;</a>
+
+    <div id="btnContainer">
+        <a href="list.html"><button class="btn">View All</button></a>
+
+    </div>
     <script>
         function getRandomlink() {
             let myRandom = Math.floor(Math.random() * (100 - 1) + 1);

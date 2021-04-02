@@ -184,15 +184,14 @@ a {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -20px;
-    padding: 18px;
+    margin-top: -50px;
+    padding: 30px;
     color: white;
     font-weight: bold;
     font-size: 20px;
     animation: fadein 2s;
     animation-delay: 10s;
     user-select: none;
-    border: solid white 1px;
 }
 
 @keyframes fadein {
@@ -211,15 +210,14 @@ a {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -20px;
-    padding: 18px;
+    margin-top: -50px;
+    padding: 30px;
     color: white;
     font-weight: bold;
     font-size: 20px;
     animation: fadein 2s;
     animation-delay: 10s;
     user-select: none;
-    border: solid white 1px;
 }
 
 @keyframes fadein {
@@ -232,9 +230,7 @@ a {
         opacity: 1;
     }
 }
-.round {
-    border-radius: 50%;
-}
+
 
 /* Position the "next button" to the right */
 .next {
